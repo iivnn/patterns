@@ -16,8 +16,7 @@ public class NewMain {
         List<Animal> couple = new HumanFactory().getCouple();
         System.out.println("1st human -> " + couple.get(0).getClass().getSimpleName());
         System.out.println("2nd human -> " + couple.get(1).getClass().getSimpleName());
-        
-        
+
     }
-    
+
 }
